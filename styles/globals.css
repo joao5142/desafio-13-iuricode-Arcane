@@ -89,3 +89,12 @@ div#__next>div {
   --gray-color: #585858;
   --dark-color: #161616;
 }
+
+
+@media(max-width:640px) {
+  body {
+    background-position-x: -200px;
+
+    background-size: cover;
+  }
+}
