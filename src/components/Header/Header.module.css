@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    padding-top: 35px;
+    flex: 1;
+    justify-content: center;
+    width: 70vw;
+    max-height: 90px;
+    margin: 0 auto;
+}
+
+.nav {
+    flex: 2;
+    width: 100%;
+}
+
+.nav ul {
+    display: flex;
+    height: 40px;
+}
+
+.nav ul li {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header_logo {
+    flex: 1;
+    position: relative;
+    max-height: 40px;
+    min-width: 60px;
+    cursor: pointer;
+}
+
+.container_separation {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.separation {
+    width: 2px;
+    background-color: var(--white-color);
+    text-align: center;
+    height: 40px;
+}

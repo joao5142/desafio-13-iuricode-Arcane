@@ -1,0 +1,42 @@
+.main {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_main {
+    position: relative;
+
+    text-align: center;
+}
+
+.container_image {
+    max-width: 600px;
+    width: 600px;
+    min-width: 300px;
+    height: 180px;
+    position: relative;
+}
+
+.btn_main {
+    padding: 25px 80px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media(max-width:500px) {
+
+    .container_image {
+        width: 95vw;
+    }
+
+    .btn_main {
+        width: 80vw;
+        padding: 25px 20px;
+    }
+
+
+}

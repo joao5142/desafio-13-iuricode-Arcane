@@ -1,16 +1,91 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+/*##RESET*/
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
 
 * {
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+button,
+input,
+textarea {
+  border: 0;
+  outline: none;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  border: 0;
+  outline: none;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  background: url("/assets/img/wallpaper.svg");
+  background-size: cover;
+  background-position: 150px center center;
+  background-repeat: no-repeat;
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0px;
+  min-width: 100vw;
+  width: 100%;
+  min-height: -webkit-fill-available;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  ;
+  z-index: -1;
+
+}
+
+body,
+html {
+
+  width: 100vw;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+div#__next,
+div#__next>div {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* UTILS */
+.btn {
+  background-color: #E3D2BC;
+  border-top-left-radius: 15px;
+  cursor: pointer;
+}
+
+/*##VARIAVEIS*/
+:root {
+  --white-color: #F9F9F9;
+  --white-200-color: #E3D2BC;
+  --gray-color: #585858;
+  --dark-color: #161616;
 }
